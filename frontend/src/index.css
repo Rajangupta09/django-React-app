@@ -1,0 +1,42 @@
+
+/* frontend/src/index.css  */
+ 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #648d81;
+}
+.card{
+  box-shadow: -8px 20px 15px 2px #575454ee;
+  background-color: #c7e0ccbf;
+}
+.list-group-item{
+  background-color: #738f79;
+
+}
+h1.text-white{
+  display: none;
+}
+.todo-title {
+  cursor: pointer;
+}
+.completed-todo {
+  text-decoration: line-through;
+}
+.tab-list > span {
+  padding: 5px 8px;
+  border: 1px solid #282c34;
+  border-radius: 10px;
+  margin-right: 55px;
+  cursor: pointer;
+  box-shadow: -4px 6px 14px 2px lightslategrey;
+}
+.tab-list > span.active {
+  background-color: rgb(190, 161, 107);
+  color: #ffffff;
+}
